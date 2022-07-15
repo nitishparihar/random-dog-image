@@ -1,0 +1,35 @@
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(247,45,253,1) 100%);
+    text-align: center;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: yellow;
+    font-weight: bold;
+}
+
+.main-container {
+    margin: 1.5rem auto;
+    padding-bottom: 1rem;
+}
+
+.image {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.btn {
+    background-color: lightcoral;
+    margin-bottom: 1.5rem;
+    padding: 0.8em;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: coral;
+}
